@@ -1,0 +1,10 @@
+post http://localhost:3001/api/cards/
+Content-Type: application/json
+
+{
+    "cardId": 15000,
+    "owner": "Seppo Seinähullu",
+    "pin": 1111,
+    "debitAccount": "5fa45e57397a4522c369753c",
+    "creditAccount": "5fa472194b06ff2b7d581d5a"
+}
